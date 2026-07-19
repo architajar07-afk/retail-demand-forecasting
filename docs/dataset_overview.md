@@ -3,7 +3,6 @@
 ## Dataset Source
 
 The M5 Forecasting dataset contains historical retail sales data used for demand forecasting and inventory analysis.
-
 Three primary dataset files were selected for the project:
 
 1. calendar.csv
@@ -49,9 +48,7 @@ The dataset is currently stored in wide format. It will later be transformed int
 ## Sell Prices Dataset
 
 Shape: 6,841,121 rows and 4 columns
-
 The sell prices dataset contains weekly product pricing information.
-
 Columns include:
 
 - store_id
@@ -75,3 +72,4 @@ This dataset will help analyze the relationship between product prices and custo
 - Analyze missing values and data types.
 - Transform the sales dataset into a forecasting-friendly structure.
 - Prepare the datasets for loading into the cloud data warehouse.
+
